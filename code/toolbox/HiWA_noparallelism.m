@@ -1,4 +1,4 @@
-function [Rg,P,diagnostic] = HiWA(A,X,B,Y,param)
+function [Rg,P,diagnostic] = HiWA_noparallelism(A,X,B,Y,param)
 % Hierarchical Wasserstein Alignment (HiWA)
 % 
 % Hierarchical Optimal Transport for Multimodal Distribution Alignment
@@ -104,8 +104,8 @@ end
 % Distributed ADMM
 for n = 1:maxiter
     % Solve for each Q (in parallel)
-    % for k = 1:Ka*Kb % without parallelism
-    parfor k = 1:Ka*Kb % with parallelism
+    for k = 1:Ka*Kb % without parallelism
+    % parfor k = 1:Ka*Kb % with parallelism
         T = mu/D*(Rg - L(:,:,k));
         [R(:,:,k),~,C(k)] = WAsolver(XL(:,Lx==idx_i(k)),YL(:,Ly==idx_j(k)),P(k),T,WAparam);
     end

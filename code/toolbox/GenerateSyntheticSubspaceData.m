@@ -21,6 +21,7 @@ Rgt = U*C*V';
 B = A; for i = 1:size(B,2), B{i} = Rgt * B{i}; end 
 
 % Generate distribution parameters
+pos = @(x) max(0,x);
 for i = 1:size(A,2)
     dist_param{i}.mu = randn(D(i),1);
     ssigma = rand(D(i));

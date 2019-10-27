@@ -32,5 +32,5 @@ rng(1); % for repeatability
 [A,B,X,Y,XX,YY,Rgt,Lx,Ly] = GenerateSyntheticSubspaceData(S,D,d,N,Nvar,delta,0);
 HiWAparam.Rgt = Rgt; % Use ground truth for visualization/validation
 
-% Run MuDESA
+% Run HiWA
 HiWA(A,X,B,Y,HiWAparam);

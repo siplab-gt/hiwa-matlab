@@ -1,8 +1,8 @@
 # Hierarchical Wasserstein Alignment (HiWA)
 
-This toolbox contains MATLAB code associated with the paper titled *Hierarchical Optimal Transport for Multimodal Distribution Alignment*. A preprint can be found at [arXiv:1906.11768](https://arxiv.org/abs/1906.11768).
+This toolbox contains MATLAB code associated with the Neurips 2019 paper titled *Hierarchical Optimal Transport for Multimodal Distribution Alignment*. A preprint can be found at [arXiv:1906.11768](https://arxiv.org/abs/1906.11768).
 
-The python version of this toolbox can be found [here](dummy).
+The python version of this toolbox can be found [here](https://github.com/nerdslab/PyHiWA).
 
 # Citation
 ```
