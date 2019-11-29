@@ -7,12 +7,12 @@ The python version of this toolbox can be found [here](https://github.com/nerdsl
 # Citation
 ```
 @article{lee.19,
-    author = {Lee, J. and Dabagia, M. and Dyer, E. and Rozell, C.},
-    title  = {Hierarchical Optimal Transport for Multimodal Distribution Alignment},
-    year   = 2019,
-    month  = may,
-    note   = {Under review},
-    url    = {http://arxiv.org/abs/1906.11768}
+    author    = {Lee, J. and Dabagia, M. and Dyer, E. and Rozell, C.},
+    title     = {Hierarchical Optimal Transport for Multimodal Distribution Alignment},
+    year      = 2019,
+    booktitle = {Advances in Neural Information Processing Systems},
+    pages     = {13453--13463},
+    url       = {http://papers.nips.cc/paper/9501-hierarchical-optimal-transport-for-multimodal-distribution-alignment.pdf}
 }
 ```
 
